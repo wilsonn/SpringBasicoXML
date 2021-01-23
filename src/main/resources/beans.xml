@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="personaService" class="com.whnm.service.PersonaServiceImpl">	
+	</bean>
+	
+	<bean id="persona" class="com.whnm.model.Persona">
+<!-- 		<constructor-arg value="1"/> -->
+<!-- 		<constructor-arg value="Wilson"/> -->
+<!-- 		<constructor-arg value="Neira"/> -->
+		<property name="id" value="1" />
+		<property name="nombres" value="Wilson" />
+		<property name="apellidos" value="Neira" />
+	</bean>
+
+</beans>
+
