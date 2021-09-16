@@ -1,10 +1,11 @@
-package com.whnm.service;
+package com.whnm.service.impl;
 
 import java.util.List;
 
 import com.whnm.model.Persona;
+import com.whnm.service.PersonaService;
 
-public class PersonaServiceImpl implements IPersonaService {
+public class PersonaServiceImpl implements PersonaService {
 
 	@Override
 	public void crear() {

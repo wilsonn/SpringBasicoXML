@@ -5,7 +5,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.whnm.model.Persona;
-import com.whnm.service.IPersonaService;
+import com.whnm.service.PersonaService;
 
 public class App {
 
@@ -15,7 +15,7 @@ public class App {
 //		service.crear();
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-		IPersonaService service =  (IPersonaService) context.getBean("personaService");
+		PersonaService service =  (PersonaService) context.getBean("personaService");
 		service.crear();
 		
 		Persona per = (Persona) context.getBean("persona");

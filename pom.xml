@@ -7,7 +7,7 @@
 	<version>1.0.0</version>
 
 	<properties>
-		<springframework.version>5.2.12.RELEASE</springframework.version>
+		<springframework.version>5.2.16.RELEASE</springframework.version>
 	</properties>
 
 	<dependencies>

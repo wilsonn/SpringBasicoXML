@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.whnm.model.Persona;
 
-public interface IPersonaService {
+public interface PersonaService {
 
 	void crear();
 	List<Persona> listar();
